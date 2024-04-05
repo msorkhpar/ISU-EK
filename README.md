@@ -9,7 +9,7 @@ First you need to have docker installed on your Linux machine (or your VM).
 
 ```bash
 sudo apt update && sudo apt install curl -y 
-curl -fsSL https://raw.githubusercontent.com/msorkhpar/ISU-ELK/main/install-docker.yml | sudo sh
+curl -fsSL https://raw.githubusercontent.com/msorkhpar/ISU-ELK/main/install-docker.sh | sudo sh
 ```
 
 **NOTE**: This script is only tested on Ubuntu 22.04 LTS. If you are using a different distribution, please install
