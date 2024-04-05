@@ -1,3 +1,6 @@
+elasticsearch-data/
+.idea/
+
 # Compiled class file
 *.class
 
