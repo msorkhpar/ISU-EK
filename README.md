@@ -9,7 +9,7 @@ First you need to have docker installed on your Linux machine (or your VM).
 
 ```bash
 sudo apt update && sudo apt install curl -y 
-curl -fsSL https://raw.githubusercontent.com/msorkhpar/ISU-ELK/main/install-docker.sh | sudo sh
+curl -fsSL https://raw.githubusercontent.com/msorkhpar/ISU-EK/main/install-docker.sh | sudo sh
 dockerd-rootless-setuptool.sh install --force
 ```
 
@@ -19,8 +19,8 @@ docker by following the official documentation.
 To run the environment, execute the following commands:
 
 ```bash
-git clone https://github.com/msorkhpar/ISU-ELK.git
-cd ISU-ELK
+git clone https://github.com/msorkhpar/ISU-EK.git
+cd ISU-EK
 docker compose up -d
 ```
 
